@@ -1,4 +1,24 @@
-body{
-    margin-left: 10px;
-    margin-right: 10px;
+.jms {
+    margin-left: 20px;
+    margin-right: 20px;
 }
+/* header */
+.navcontainer{
+  border: 2px black solid;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+/* footer */
+.gcfooter {
+    margin-top: 30px;
+    display: grid;
+    border: 1px black solid;
+    background-color: rgb(65, 120, 141);
+    grid-template-columns: auto auto;
+  }
+  
+  .f2 {
+    text-align: right;
+  }
