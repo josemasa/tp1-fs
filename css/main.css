@@ -13,12 +13,15 @@
 /* footer */
 .gcfooter {
     margin-top: 30px;
-    display: grid;
+    display: flex;
     border: 1px black solid;
     background-color: rgb(65, 120, 141);
-    grid-template-columns: auto auto;
+    justify-content: ;
   }
   
   .f2 {
     text-align: right;
+  }
+  .inicio {
+      color: black;
   }
