@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
 .jms {
     margin-left: 20px;
     margin-right: 20px;
 }
-/* header */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 
 *{
     box-sizing: border-box;
@@ -33,7 +33,7 @@ body{
 .header .logo img{
     height: 60px;
     width: auto;
-    border-radius: 50%;
+    border-radius: 50%¿;
     transition: all 0.3s;
 }
 
@@ -64,6 +64,27 @@ body{
     color: #ffbc0e;
 }
 
+.contenedor-formulario {
+    margin-top: 20px;
+    margin-left: 420px;
+    color: #eceff1;
+    width: 500px;
+    background-color: #1b3039
+}
+
+.formularios {
+    width: 500px;
+    padding: 60px;
+}
+
+.input {
+    width:92%;
+}
+
+.submit {
+    margin-left: 140px;
+   
+}
 
 /* footer */
 .gcfooter {
