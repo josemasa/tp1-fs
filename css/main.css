@@ -1,10 +1,19 @@
 .jms {
-   
+   background-image: url(../img/fondo.jpg);
     margin: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
+.t1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(6, 6, 6);
+    text-shadow: rgb(14, 8, 42) 0px 0px 40px;
+    text-transform: uppercase;
+    background:rgb( 100,200,300,.4) ;
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 
@@ -15,6 +24,57 @@
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
 }
+
+
+/* ----------- MAIN -------- */
+
+.contenidos{
+    font-size: 20px;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(192, 205, 216);
+    border-radius: 20% 20% 20% 20%;
+    border:rgb(4, 2, 1) 6px solid;
+  }
+  .contenidos1{
+    border-top:6px  #000000 solid;
+  }
+  .contenidos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+ 
+  .flexconteiner{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    border: 3px black solid;
+    background-color: rgb(65, 120, 141);
+  }
+  .cuerpo {
+      display: flex;
+      flex-flow: row wrap;
+    margin: 5px;
+    border: 1px black solid;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+  }
+  .img {
+    width: 200px;
+    border: rgb(4, 2, 1) 2px solid;
+  }
+  .prueba {
+    margin: 10px;
+    border-radius: 52px 49px 49px 49px;
+  -moz-border-radius: 52px 49px 49px 49px;
+  -webkit-border-radius: 52px 49px 49px 49px;
+  border: 11px double #000000;
+  background-color: #ba1fb0;
+  }
 /* header */
 
 
