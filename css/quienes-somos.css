@@ -23,3 +23,9 @@
     display: table;
     clear: both;
   }
+  ul{
+    list-style: none;
+  }
+  section{
+    border:1px solid;
+  }
