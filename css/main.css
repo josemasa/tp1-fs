@@ -1,9 +1,9 @@
-.jms {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+/* .jms {
     margin-left: 20px;
     margin-right: 20px;
-}
-/* header */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+} */
 
 *{
     box-sizing: border-box;
@@ -64,6 +64,20 @@ body{
     color: #ffbc0e;
 }
 
+.container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 50px;
+}
+
+.slide {
+    margin-top: 10px;
+}
+
+.slide img {
+    height: 65vh;
+}
 
 /* footer */
 .gcfooter {
