@@ -1,3 +1,13 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
 .jms {
   background-image: url(../img/fondo.jpg);
   margin: 10px 20px 20px 20px;
@@ -12,24 +22,41 @@
   color: rgb(6, 6, 6);
   text-shadow: rgb(14, 8, 42) 0px 0px 40px;
   text-transform: uppercase;
-  background: rgb(100, 200, 300, 0.4);
+  background: rgb(100, 200, 300, 0.9);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+/* header */
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Nunito", sans-serif;
-  font-size: 20px;
+.header {
+  background-color: #1b3039;
+  display: flex;
+  position: fixed;
+  
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10%;
 }
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
 
 /* ----------- MAIN -------- */
 
-#carouselExampleDark {
- 
-}
+
 
 .contenidos {
   font-size: 20px;
@@ -54,21 +81,25 @@
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 3px black solid;
+  /* border: 3px black solid; */
   background-color: rgb(65, 120, 141);
 }
 .cuerpo {
+  background-color: #9cd5fb;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   margin: 5px;
-  border: 1px black solid;
+  border-radius: 15%;
+
+  /* border: 1px black solid; */
   width: 250px;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
 .img {
   width: 200px;
-  border: rgb(4, 2, 1) 2px solid;
+  /* border: rgb(4, 2, 1) 2px solid; */
 }
 .prueba {
   margin: 10px;
@@ -78,34 +109,6 @@
   border: 11px double #000000;
   background-color: #240f57;
 }
-/* header */
-
-.header {
-  background-color: #1b3039;
-  display: flex;
-  position: fixed;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 5px 10%;
-}
-
-.logo {
-  cursor: pointer;
-}
-
-.logo img {
-  height: 60px;
-  width: auto;
-  border-radius: 50%;
-  transition: all 0.5s;
-}
-
-.logo img:hover {
-  transform: scale(1.1);
-}
-
-/* main */
 
 .main {
   margin-top: 120px;
