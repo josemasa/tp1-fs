@@ -64,6 +64,10 @@
 
 /* ----------- MAIN -------- */
 
+.carousel{
+  width: 50%;
+}
+
 .main{
   margin-top: 50px;
   padding: 10PX;
@@ -119,6 +123,33 @@
 .img {
   width: 200px;
   /* border: rgb(4, 2, 1) 2px solid; */
+}
+
+/* quienes somos  */
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+  
+  color: #eceff1;
+  width: 500px;
+  background-color: #1b3039
+}
+
+.formularios {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+}
+
+.input {
+  width:92%;
+}
+.submit {
+  
 }
 
 
