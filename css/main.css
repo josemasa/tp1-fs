@@ -64,8 +64,12 @@
 
 /* ----------- MAIN -------- */
 
+.carusel-contenedor{
+ padding-left: 150px;
+
+}
 .carousel{
-  width: 50%;
+  width: 60%;
 }
 
 .main{
@@ -189,3 +193,7 @@
 small {
   background-color: #eceff1;
 }
+
+
+
+
