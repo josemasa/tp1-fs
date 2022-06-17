@@ -69,8 +69,12 @@
 z-index: 1;
 }
 .carousel{
-  width: 60%;
+  width: 100%;
 }
+#imagen-carusel {
+  height: 400px;
+}
+
 
 .main{
   margin-top: 50px;
@@ -126,6 +130,7 @@ z-index: 1;
 
 .img {
   width: 200px;
+
   /* border: rgb(4, 2, 1) 2px solid; */
 }
 
