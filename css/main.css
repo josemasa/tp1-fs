@@ -193,6 +193,15 @@ z-index: 1;
 }
 small {
   background-color: #eceff1;
+  text-align: center;
+
+}
+.insta {
+  margin: 10px;
+}
+
+.wsp {
+  margin: 10px;
 }
 
 
