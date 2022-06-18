@@ -10,7 +10,7 @@
 .jms {
   background-image: url(../img/fondo.jpg);
 
-  margin: 5px 20px 20px 20px;
+  margin: 5px 20px 0px 20px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -27,6 +27,13 @@
 .t2{
   color: #000000;
   
+}
+.t3{
+  color: #eceff1;
+  border: #eceff1 2px solid;
+  border-radius: 10px;
+  background-color: rgb(100,100,110, 0.9);
+  padding: 15px;
 }
 /* header */
 
@@ -179,6 +186,7 @@ z-index: 1;
     border: none;
     background-color: aquamarine;
 }
+
 
 
 
