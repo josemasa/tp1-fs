@@ -132,8 +132,7 @@ z-index: 1;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  /* border: 3px black solid; */
-  /* background-color: rgb(65, 120, 141); */
+  
 }
 .cuerpo {
   background: rgb(36, 172, 197 , 0.9);
@@ -143,7 +142,6 @@ z-index: 1;
   margin: 8px;
   border-radius: 15%;
 
-  /* border: 1px black solid; */
   width: 300px;
   padding: 25px;
   text-align: center;
@@ -156,7 +154,7 @@ z-index: 1;
 .img {
   width: 200px;
 
-  /* border: rgb(4, 2, 1) 2px solid; */
+ 
 }
 
 /* quienes somos  */
@@ -169,15 +167,12 @@ z-index: 1;
   width: 500px;
   background-color: #1b3039
 }
-
 .formularios {
   display: flex;
   flex-direction: column;
   
   padding: 20px;
 }
-
-
 .submit {
 
   width: 30%;
@@ -186,6 +181,38 @@ z-index: 1;
     border: none;
     background-color: aquamarine;
 }
+@media screen and (max-width: 630px){
+  .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    color: #eceff1;
+    width: 300px;
+    background-color: #1b3039
+  }
+  .formularios {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .t4{
+    font-size: 15px;
+    padding: 0px;
+
+  }
+  .submit {
+     
+    width: 20%;
+    padding: 13px 13px ;
+      border-radius: 10px;
+      border: none;
+      background-color: aquamarine;
+}
+}
+
+
 
 
 
