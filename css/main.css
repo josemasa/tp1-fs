@@ -23,6 +23,7 @@
   text-shadow: rgb(14, 8, 42) 0px 0px 40px;
   text-transform: uppercase;
   background: rgb(36, 172, 197 , 0.9);
+  margin-bottom: 10px;
 }
 .t2{
   color: #000000;
@@ -64,12 +65,16 @@
 
 /* ----------- MAIN -------- */
 
-.carusel-contenedor{
- padding-left: 150px;
+ /* .carusel-contenedor{
+ height: 150px;
 
-}
-.carousel{
+}  */
+.c1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 60%;
+  
 }
 
 .main{
