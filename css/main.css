@@ -10,7 +10,7 @@
 .jms {
   background-image: url(../img/fondo.jpg);
 
-  margin: 5px 20px 0px 20px;
+  margin: 5px 10px 0px 10px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -93,16 +93,7 @@
   height: 30px;
   border-radius: 50%;
 }
-@media screen and (max-width: 630px){
-  #imagen-carusel {
-    height: 100px;
-    
-  }
-  .carousel{
-    width: 100%;
-    height: 200px;
-  }
-}
+
 
 .main{
   margin: 50px;
@@ -185,47 +176,6 @@
     border: none;
     background-color: aquamarine;
 }
-@media screen and (max-width: 630px){
-  .contenedor-formulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 30px;
-    color: #eceff1;
-    width: 300px;
-    background-color: #1b3039
-  }
-  .formularios {
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    padding: 5px;
-  }
-  .t4{
-    font-size: 15px;
-    padding: 0px;
-
-  }
-  .submit {
-     
-    width: 20%;
-    padding: 13px 13px ;
-      border-radius: 10px;
-      border: none;
-      background-color: aquamarine;
-}
-.t1 h1{
-  font-size: 20px;
-  
-}
-
-}
-
-
-
-
-
-
 
 /* footer */
 .footer {
@@ -271,6 +221,58 @@ small {
   margin: 10px;
 }
 
+/* media querry  */
+@media screen and (max-width: 630px){
+  /* general  */
+  .jms {
+  
+    margin: 5px 0px 0px 0px;
+    
+  }
+  .t4{
+    font-size: 15px;
+    padding: 0px;
+
+  }
+  .t1 h1{
+    font-size: 20px;
+    
+  }
+  /* header  */
+  /* main  */
+  .carousel{
+    width: 100%;
+    height: 200px;
+  }
+  #imagen-carusel {
+    height: 100px;
+    
+  }
+  .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    color: #eceff1;
+    width: 300px;
+    background-color: #1b3039
+  }
+  .formularios {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 5px;
+  }
+    .submit {
+     
+    width: 20%;
+    padding: 13px 13px ;
+      border-radius: 10px;
+      border: none;
+      background-color: aquamarine;
+}
+  /* footer  */
+}
 
 
 
