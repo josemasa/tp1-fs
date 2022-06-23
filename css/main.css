@@ -200,7 +200,7 @@
 }
 
 .navfooter li a:hover {
-  color: #ffbc0e;
+  color: #0e52ff;
 }
 
 .footer-1 {
@@ -219,6 +219,12 @@ small {
 
 .wsp {
   margin: 10px;
+}
+.wsp:hover {
+  transform: scale(1.3);
+}
+.insta:hover {
+  transform: scale(1.3);
 }
 
 /* media querry  */
