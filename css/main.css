@@ -24,9 +24,9 @@
   text-transform: uppercase;
   background: rgb(36, 172, 197 , 0.9);
 }
-.t2{
-  color: #000000;
-  
+header a ,main a {
+  color: #000208;
+  text-decoration: none;
 }
 .t3{
   color: #eceff1;
@@ -186,7 +186,9 @@
   justify-content: space-around;
   align-items: center;
 }
+.navbar-brand{
 
+}
 .navfooter {
   list-style: none;
 }
@@ -245,6 +247,7 @@ small {
     
   }
   /* header  */
+ 
   /* main  */
   .carousel{
     width: 100%;
